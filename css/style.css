@@ -180,3 +180,24 @@ SERVICE
     border-radius: 50px;
     text-align: center;
 }
+
+/*
+contact
+ */
+
+.container-contact{
+    width: 100%;
+    max-width: 1088px;
+    margin: 0 auto;
+    background: white;
+}
+
+.contents-contact{
+    display: flex;
+}
+.contents-contact img{
+    max-width: 50%;
+}
+.contents-contact h1{
+    font-size: 30px;
+}
