@@ -179,6 +179,7 @@ SERVICE
     padding: 15px;
     border-radius: 50px;
     text-align: center;
+    margin: 15px;
 }
 
 /*
@@ -200,4 +201,45 @@ contact
 }
 .contents-contact h1{
     font-size: 30px;
+}
+
+/*
+and
+ */
+
+.container-and{
+    width: 100%;
+    max-width: 1088px;
+    margin: 0 auto;
+    background: #222222;
+}
+
+.logo-and{
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-and h3{
+    color: red;
+    font-size: 15px;
+}
+
+h3 span{
+    color: white;
+}
+.contents-and{
+    display: flex;
+}
+.list2{
+    color: white;
+    font-size: 12px;
+}
+h4{
+    color: white;
+    font-size: 8px;
 }
