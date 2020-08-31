@@ -119,16 +119,19 @@ article{
     background: white;
 }
 
-.blog-contents{
+.blog-contents {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+.blog-title{
+    width: 100%;
+}
 .blog-contents h1{
     font-size: 30px;
 }
-.blog-title::before,
-.blog-title::after{
+.bg::before,
+.bg::after{
     content: "";
     display: block;
     height: 3px;
@@ -138,11 +141,12 @@ article{
 
 .blog{
     padding: 5px;
+    width: 33%;
 }
 
 .blog h2{
     font-size: 25px;
-    padding: 20px 20px 20px 0px;
+    padding: 20px 20px 20px 0;
     color: gray;
 }
 
@@ -157,9 +161,10 @@ article{
     margin: 10px 10px 10px 0px;
     padding: 15px;
     border-radius: 50px;
+    display: inline-block;
 }
 .blog img{
-    max-width: 15%;
+    max-width: 100%;
 }
 
 /*
@@ -205,7 +210,7 @@ SERVICE
     padding: 15px;
     border-radius: 50px;
     text-align: center;
-    margin: 15px;
+    display: inline-block;
 }
 
 /*
